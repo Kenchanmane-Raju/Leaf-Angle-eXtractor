@@ -15,3 +15,4 @@ D. Data Output and graphical interface
 
 
 ![Image of image processing](Image processing.png)
+
