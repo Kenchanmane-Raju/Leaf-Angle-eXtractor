@@ -13,5 +13,4 @@ D. Data Output and graphical interface
 
 ![Image of LAX Flowchart](Flowchart.png)
 
-![figure](Image processing.png)
 
