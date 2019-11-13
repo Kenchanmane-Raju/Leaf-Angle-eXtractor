@@ -11,6 +11,7 @@ C. Identifying Leaf Angle
 
 D. Data Output and graphical interface
 
+![Image of LAX Flowchart](Flowchart.png)
 
-![Image of image processing](Image processing.png)
+![figure](Image processing.png)
 
