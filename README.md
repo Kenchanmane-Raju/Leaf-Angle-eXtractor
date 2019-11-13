@@ -1,8 +1,6 @@
 # Leaf-Angle-eXtractor
 A MATLAB based framework for leaf angle measurements from image data
 
-![Image of LAX Flowchart](Flowchart.png)
-
 *Image Processing Framework*
 
 A. Separation of Foreground and Background
