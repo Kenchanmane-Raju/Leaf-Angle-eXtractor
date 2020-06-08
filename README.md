@@ -5,7 +5,7 @@ A MATLAB based framework for leaf angle measurements from image data
 
 This section describes in detail, tasks performed by the image processing framework and indicate where manula input is required.
 
-A. Welcome Screen
+*A. Welcome Screen*
 A welcome screen that serves as an initial starting point in the application provides the user with useful information about the creation of the project as well as example imagery of the capability of the program. The user has to select ‘New Project’ to continue to the next step. The welcome screen also has an ‘About’ button (question mark icon) that gives useful information about the program. The ‘New’ button will bring the user back to the welcome screen at any time.
 
 B. Selecting Time-Lapse images
@@ -32,8 +32,10 @@ A final threshold step is utilized to accommodate a linear change in the lightin
 I. Perform Leaf Angle Analysis
 This step serves as a confirmation screen before performing the leaf angle analysis.  It displays the binary image of the initial and final frame side by side.  By doing this, the user can correct any possible errors made in initial inputs before the analysis is underway.  Pressing the ‘start analysis’ button begins the estimation of leaf angle.  The analysis is completed for each leaf of the plant by isolating the region of the leaf, thresholding the image, and using the region property of the largest connected component to determine the orientation of the leaf. A status bar is utilized to inform the user of the progression of the analysis. After the analysis is complete the program will automatically continue to the finish screen.
 
-J. Finish Screen
+*J. Finish Screen*
+
 The finish screen provides a useful image of the plant with each of the leaves under analysis labeled. These labels correspond to the graph, which opens in a second window. The graph shows the leaf angle as a function of the frame count.  Because the frequency at which images are captured in a time-lapse may be different for dissimilar analyses, the x-value is set as frame counts. The users are given the option to export the collected data to a .csv file.  The column number in the output data corresponds to the leaf number as shown in the final image screen.
 
-#CREDITS
+*CREDITS*
+
 This MATLAB framework was developed by Miles Adkin as an undergraduate student in Baskar Ganapathysubramanian lab at Iowa State University. Alex Enersen, an undergraduate student working with Sunil K. Kenchanmane Raju in James Schnable lab, University of Nebraska-Lincoln, made minor modifications to the code for effecient implementation. 
