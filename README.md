@@ -35,5 +35,5 @@ This step serves as a confirmation screen before performing the leaf angle analy
 J. Finish Screen
 The finish screen provides a useful image of the plant with each of the leaves under analysis labeled. These labels correspond to the graph, which opens in a second window. The graph shows the leaf angle as a function of the frame count.  Because the frequency at which images are captured in a time-lapse may be different for dissimilar analyses, the x-value is set as frame counts. The users are given the option to export the collected data to a .csv file.  The column number in the output data corresponds to the leaf number as shown in the final image screen.
 
-*CREDITS*
+#CREDITS
 This MATLAB framework was developed by Miles Adkin as an undergraduate student in Baskar Ganapathysubramanian lab at Iowa State University. Alex Enersen, an undergraduate student working with Sunil K. Kenchanmane Raju in James Schnable lab, University of Nebraska-Lincoln, made minor modifications to the code for effecient implementation. 
