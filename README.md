@@ -11,7 +11,7 @@ A welcome screen that serves as an initial starting point in the application pro
 
 *B. Selecting Time-Lapse images*
 
-To define the set of images that make up the time-lapse sequence, the user has to choose a folder with all images in the series (If the pictures have arbitrary file names, then a sort function has to be used to order the files). LAX sorts the images by their date of creation.  The utility then stores all the images in a cell array, where each cell contains the RGB value data for a sequential image from the time-lapse. The user has the option to press the ‘continue’ button that will take them to the next step while pressing the ‘undo’ button returns the user to the welcome screen.
+To define the set of images that make up the time-lapse sequence, the user has to choose a folder with all images in the series (If the pictures have arbitrary file names, then a sort function has to be used to order the files). LAX sorts the images by their date of creation.  The utility then stores all the images in a cell array, where each cell contains the RGB value data for a sequential image from the time-lapse. The user has the option to press the ‘continue’ button that will take them to the next step while pressing the ‘undo’ button returns the user to the welcome screen. For testing this framework, we have provided sample images in the folder 'Example_Images'. These are images of maize B73 plants under drought stress. 
 
 *C. Selecting the Initial Frame*
 
