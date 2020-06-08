@@ -5,6 +5,8 @@ A MATLAB based framework for leaf angle measurements from image data
 
 This section describes in detail, tasks performed by the image processing framework and indicate where manula input is required.
 
+Download the LAX folder and run new_wilt_gui.m on MATLAB to open the GUI. The GUI opens in a new window with the welcome screen.
+
 *A. Welcome Screen*
 
 A welcome screen that serves as an initial starting point in the application provides the user with useful information about the creation of the project as well as example imagery of the capability of the program. The user has to select ‘New Project’ to continue to the next step. The welcome screen also has an ‘About’ button (question mark icon) that gives useful information about the program. The ‘New’ button will bring the user back to the welcome screen at any time.
